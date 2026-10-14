@@ -1,68 +1,38 @@
-# Prerequisites
-*.d
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.aps
+*.ipch
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Carpetas de compilacion (Debug/Release por plataforma)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+Win32/
+[Bb]in/
+[Oo]bj/
+
+# Archivos generados por Qt (moc, uic, rcc)
+GeneratedFiles/
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Binarios y objetos
 *.obj
-
-# Precompiled Headers
-*.gch
+*.o
 *.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
 *.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.ilk
+*.idb
 *.exe
-*.out
-*.app
-
-# Build directories
-build/
-Build/
-build-*/
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
-
-# Temporary files
-*.tmp
+*.dll
+*.lib
+*.exp
+*.tlog
 *.log
-*.bak
-*.swp
-
-# vcpkg
-vcpkg_installed/
-
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
